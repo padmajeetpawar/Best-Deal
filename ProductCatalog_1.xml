@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ProductCatalog>
+    <ConsoleCatalog>
+
+        <console id="laptop2">
+            <name>Apple Macbook Pro</name>
+            <price>1199.99</price>
+            <image>laptop2.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>macbook_wc</accessory>
+                <accessory>macbook_sh</accessory>
+                <accessory>macbook_kg</accessory>
+                <accessory>macbook_vb</accessory>
+                <accessory>macbook_rs</accessory>
+                
+            </accessories>
+        </console>
+        
+        <console id="laptop7">
+            <name>Apple Macbook Air</name>
+            <price>999.99</price>
+            <image>laptop7.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>macbook_wc</accessory>
+                <accessory>macbook_sh</accessory>
+                <accessory>macbook_kg</accessory>
+                <accessory>macbook_vb</accessory>
+                <accessory>macbook_rs</accessory>
+                
+            </accessories>
+        </console>
+        
+     
+        
+        <console id="Surface">
+            <name>Microsoft Surface Laptop 2 13.5"</name>
+            <price>999.99</price>
+            <image>laptop1.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+         
+            <accessories>
+                <accessory>surface_wc</accessory>
+                <accessory>surface_sh</accessory>
+                <accessory>surface_vb</accessory>
+                <accessory>surface_kg</accessory>
+                <!--<accessory>xbox360_mp</accessory>
+                <accessory>xbox360_kg</accessory>-->
+            </accessories>
+        </console>
+        <console id="Lenovo">
+            <name>Lenovo Yoga 730 2 in 1 15.6"</name>
+            <price>1419.49</price>
+            <image>laptop3.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+
+            <accessories>
+                <accessory>yoga_wc</accessory>
+                <accessory>yoga_sh</accessory>
+                <accessory>yoga_vb</accessory>
+                <accessory>yoga_kg</accessory>
+                <!--<accessory>xbox360_mp</accessory>
+                <accessory>xbox360_kg</accessory>-->
+            </accessories>
+        </console>
+        <console id="laptop5">
+            <name>HP spectre x360</name>
+            <price>1010.99</price>
+            <image>laptop5.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>specter_wc</accessory>
+                <accessory>specter_sh</accessory>
+                <accessory>specter_vb</accessory>
+                <accessory>specter_kg</accessory>
+                <!--<accessory>xbox360_mp</accessory>
+                <accessory>xbox360_kg</accessory>-->
+            </accessories>
+        </console>
+        <console id="laptop4">
+            <name>ASUS - FX705DT 17.3" Gaming Laptop</name>
+            <price>749.99</price>
+            <image>laptop4.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>asus_wc</accessory>
+                <accessory>asus_sh</accessory>
+                <accessory>asus_vb</accessory>
+                <accessory>asus_kg</accessory>
+                <!--<accessory>xbox360_mp</accessory>
+                <accessory>xbox360_kg</accessory>-->
+            </accessories>
+        </console>
+        <console id="laptop6">
+            <name>Dell - Inspiron 2-in-1</name>
+            <price>1199.99</price>
+            <image>laptop6.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>dell_wc</accessory>
+                <accessory>dell_sh</accessory>
+                <accessory>dell_vb</accessory>
+                <accessory>dell_kg</accessory>
+                <!--<accessory>xbox360_mp</accessory>
+                <accessory>xbox360_kg</accessory>-->
+            </accessories>
+        </console>
+                
+                
+                
+                
+        
+        
+                
+        <console id="tv1">
+            <name>TCL 50" Class LED 2160p Smart 4K UHD TV</name>
+            <price>279.99</price>
+            <image>tv1.jpg</image>
+            <manufacturer>TV</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>tv1_wc</accessory>
+                <accessory>tv1_sh</accessory>
+                <accessory>tv1_vb</accessory>
+                <accessory>tv1_kg</accessory>
+            </accessories>
+        </console>
+        <console id="tv2">
+            <name>Samsung 55" Class LED 2160p Smart 4K UHD TV</name>
+            <price>379.99</price>
+            <image>tv2.jpg</image>
+            <manufacturer>TV</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>tv2_wc</accessory>
+                <accessory>tv2_sh</accessory>
+                <accessory>tv2_vb</accessory>
+                <accessory>tv2_kg</accessory>
+            </accessories>
+        </console>
+        <console id="tv3">
+            <name>Sharp 50" Class LED 1080p Smart HDTV Roku TV</name>
+            <price>159.99</price>
+            <image>tv3.jpg</image>
+            <manufacturer>TV</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>tv3_wc</accessory>
+                <accessory>tv3_sh</accessory>
+                <accessory>tv3_vb</accessory>
+                <accessory>tv3_kg</accessory>
+            </accessories>
+        </console>
+        <console id="tv4">
+            <name>VIZIO 70" Class LED V Series 2160p Smart 4K UHD TV</name>
+            <price>699.99</price>
+            <image>tv4.jpg</image>
+            <manufacturer>TV</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>tv4_wc</accessory>
+                <accessory>tv4_sh</accessory>
+                <accessory>tv4_vb</accessory>
+                <accessory>tv4_kg</accessory>
+            </accessories>
+        </console>
+        <console id="tv5">
+            <name>LG 65" Class LED UK6090PUA Series 2160p Smart 4K UHD TV </name>
+            <price>529.99</price>
+            <image>tv5.jpg</image>
+            <manufacturer>TV</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>tv5_wc</accessory>
+                <accessory>tv5_sh</accessory>
+                <accessory>tv5_vb</accessory>
+                <accessory>tv5_kg</accessory>
+            </accessories>
+        </console>
+        <console id="tv6">
+            <name>Sony 65" Class LED X950G Series 2160p Smart 4K UHD TV</name>
+            <price>1599.99</price>
+            <image>tv6.jpg</image>
+            <manufacturer>TV</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>tv6_wc</accessory>
+                <accessory>tv6_sh</accessory>
+                <accessory>tv6_vb</accessory>
+                <accessory>tv6_kg</accessory>
+            </accessories>
+        </console>
+        
+        
+        
+        
+        
+        
+        
+        <console id="cell1">
+            <name>Google Pixel 3 XL (Not Pink,128 GB) (4 GB RAM)</name>
+            <price>999.99</price>
+            <image>cell1.jpg</image>
+            <manufacturer>Cell Phone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>cell1_wc</accessory>
+                <accessory>cell1_sh</accessory>
+                <accessory>cell1_vb</accessory>
+                <accessory>cell1_kg</accessory>
+            </accessories>
+        </console>
+       <console id="cell2">
+            <name>Apple iPhone X (Space Gray,64 GB)</name>
+            <price>1099.99</price>
+            <image>cell2.jpg</image>
+            <manufacturer>Cell Phone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>cell2_wc</accessory>
+                <accessory>cell2_sh</accessory>
+                <accessory>cell2_vb</accessory>
+                <accessory>cell2_kg</accessory>
+            </accessories>
+        </console>
+        <console id="cell3">
+            <name>Apple iPhone XR (Black,64 GB)</name>
+            <price>1599.99</price>
+            <image>cell3.jpg</image>
+            <manufacturer>Cell Phone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>cell3_wc</accessory>
+                <accessory>cell3_sh</accessory>
+                <accessory>cell3_vb</accessory>
+                <accessory>cell3_kg</accessory>
+            </accessories>
+        </console>
+        <console id="cell4">
+            <name>Samsung Galaxy Note 10 Plus (Aura Black, 512 GB) (12GB RAM)</name>
+            <price>1299.99</price>
+            <image>cell4.jpg</image>
+            <manufacturer>Cell Phone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>cell4_wc</accessory>
+                <accessory>cell4_sh</accessory>
+                <accessory>cell4_vb</accessory>
+                <accessory>cell4_kg</accessory>
+            </accessories>
+        </console>
+        <console id="cell5">
+            <name>POCO F1 by Xiaomi (Steel Blu  e, 128 GB) (6 GB RAM)</name>
+            <price>299.99</price>
+            <image>cell5.jpg</image>
+            <manufacturer>Cell Phone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>cell5_wc</accessory>
+                <accessory>cell5_sh</accessory>
+                <accessory>cell5_vb</accessory>
+                <accessory>cell5_kg</accessory>
+            </accessories>
+        </console>
+        <console id="cell6">
+            <name>OnePlus 7 Pro (Mirror Grey,128 GB) (6 GB RAM)</name>
+            <price>699.99</price>
+            <image>cell6.jpg</image>
+            <manufacturer>Cell Phone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>cell6_wc</accessory>
+                <accessory>cell6_sh</accessory>
+                <accessory>cell6_vb</accessory>
+                <accessory>cell6_kg</accessory>
+            </accessories>
+        </console>
+        
+        
+        
+        
+        <console id="headphone1">
+            <name>V-MODA Crossfade M100 Wired Over the Ear Headphones</name>
+            <price>249.98</price>
+            <image>headphone1.jpg</image>
+            <manufacturer>Headphone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>headphone1_wc</accessory>
+                <accessory>headphone1_sh</accessory>
+            </accessories>
+        </console>
+        <console id="headphone2">
+            <name>Sony WH-CH700N Wireless Noise Canceling Over the Ear Headphones</name>
+            <price>199.99</price>
+            <image>headphone2.jpg</image>
+            <manufacturer>Headphone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>headphone2_wc</accessory>
+                <accessory>headphone2_sh</accessory>
+            </accessories>
+        </console>
+        <console id="headphone3">
+            <name>Beats Studio³ Wireless Noise Canceling Headphones Midnight Black</name>
+            <price>349.99</price>
+            <image>headphone3.jpg</image>
+            <manufacturer>Headphone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>headphone3_wc</accessory>
+                <accessory>headphone3_sh</accessory>
+            </accessories>
+        </console>
+        <console id="headphone4">
+            <name>Apple AirPods with Charging Case (Latest Model) White</name>
+            <price>144.99</price>
+            <image>headphone4.jpg</image>
+            <manufacturer>Headphone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>headphone4_wc</accessory>
+                <accessory>headphone4_sh</accessory>
+            </accessories>
+        </console>
+        <console id="headphone5">
+            <name>Apple EarPods with Remote and Mic White</name>
+            <price>699.99</price>
+            <image>headphone5.jpg</image>
+            <manufacturer>Headphone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>headphone5_wc</accessory>
+                <accessory>headphone5_sh</accessory>
+            </accessories>
+        </console>
+        <console id="headphone6">
+            <name>Bose® Hearphones™ Conversation Enhancing Headphones Black</name>
+            <price>499.99</price>
+            <image>headphone6.jpg</image>
+            <manufacturer>Headphone</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>headphone6_wc</accessory>
+                <accessory>headphone6_sh</accessory>    
+            </accessories>
+        </console>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <console id="hometheater1">
+            <name>Polk Audio Blackstone TL1600 and Denon AVR-S540BT Home Theater Package 5.1</name>
+            <price>499.99</price>
+            <image>hometheater1.jpg</image>
+            <manufacturer>Home Theater</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>hometheater1_wc</accessory>
+                <accessory>hometheater1_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="hometheater2">
+            <name>Yamaha 725W 5.1Ch. Hi Res 3D Home Theater</name>
+            <price>479.99</price>
+            <image>hometheater2.jpg</image>
+            <manufacturer>Home Theater</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>hometheater2_wc</accessory>
+                <accessory>hometheater2_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="hometheater3">
+            <name>Onkyo HT S3910 5.1Ch. Hi Res 3D Home Theater</name>
+            <price>299.99</price>
+            <image>hometheater3.jpg</image>
+            <manufacturer>Home Theater</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>hometheater3_wc</accessory>
+                <accessory>hometheater3_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="hometheater4">
+            <name>Yamaha 5.1Ch 4K Ultra HD A/V Home Theater</name>
+            <price>499.99</price>
+            <image>hometheater4.jpg</image>
+            <manufacturer>Home Theater</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>hometheater4_wc</accessory>
+                <accessory>hometheater4_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="hometheater5">
+            <name>Yamaha 725W 5.1Ch 3D Home Theater System</name>
+            <price>459.99</price>
+            <image>hometheater5.jpg</image>
+            <manufacturer>Home Theater</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>hometheater5_wc</accessory>
+                <accessory>hometheater5_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="hometheater6">
+            <name>Denon AVR 700W 5.2Ch 4K Ultra HD HDR Compatible A/V Home Theater</name>
+            <price>229.99</price>
+            <image>hometheater6.jpg</image>
+            <manufacturer>Home Theater</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>hometheater6_wc</accessory>
+                <accessory>hometheater6_sh</accessory>    
+            </accessories>
+        </console>
+        
+        
+        
+        
+        
+        
+        
+        
+        <console id="voice1">
+            <name>Google Home Mini Smart Speaker with Google Assistant</name>
+            <price>49.99</price>
+            <image>voice1.jpg</image>
+            <manufacturer>Voice Assistant</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>voice1_wc</accessory>
+                <accessory>voice1_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="voice2">
+            <name>Amazon Echo (2nd Gen) Smart Speaker with Alexa</name>
+            <price>99.99</price>
+            <image>voice2.jpg</image>
+            <manufacturer>Voice Assistant</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>voice2_wc</accessory>
+                <accessory>voice2_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="voice3">
+            <name>Google Home Smart Speaker with Google Assistant</name>
+            <price>99.99</price>
+            <image>voice3.jpg</image>
+            <manufacturer>Voice Assistant</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>voice3_wc</accessory>
+                <accessory>voice3_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="voice4">
+            <name>Amazon Echo Dot (3rd Gen) Smart Speaker with Alexa</name>
+            <price>49.99</price>
+            <image>voice4.jpg</image>
+            <manufacturer>Voice Assistant</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>voice4_wc</accessory>
+                <accessory>voice4_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="voice5">
+            <name>Lenovo Smart Clock with Google Assistant</name>
+            <price>79.99</price>
+            <image>voice5.jpg</image>
+            <manufacturer>Voice Assistant</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>voice5_wc</accessory>
+                <accessory>voice5_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="voice6">
+            <name>Sony SRS-XB501G Wireless Speaker for Streaming Music with Google Voice Assistant</name>
+            <price>299.99</price>
+            <image>voice6.jpg</image>
+            <manufacturer>Voice Assistant</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>voice6_wc</accessory>
+                <accessory>voice6_sh</accessory>    
+            </accessories>
+        </console>
+        
+        
+        
+        
+        
+        
+        
+        <console id="smart1">
+            <name>Samsung - Galaxy Watch Active2 Smartwatch 40mm</name>
+            <price>279.99</price>
+            <image>smart1.jpg</image>
+            <manufacturer>Smart Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>smart1_wc</accessory>
+                <accessory>smart1_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="smart2">
+            <name>Apple Watch Series 4 GPS + Cellular 40 mm</name>
+            <price>499.99</price>
+            <image>smart2.jpg</image>
+            <manufacturer>Smart Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>smart2_wc</accessory>
+                <accessory>smart2_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="smart3">
+            <name>Garmin vívoactive 3 Smartwatch</name>
+            <price>299.99</price>
+            <image>smart3.jpg</image>
+            <manufacturer>Smart Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>smart3_wc</accessory>
+                <accessory>smart3_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="smart4">
+            <name>Fitbit Versa Smartwatch</name>
+            <price>169.95</price>
+            <image>smart4.jpg</image>
+            <manufacturer>Smart Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>smart4_wc</accessory>
+                <accessory>smart4_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="smart5">
+            <name>Samsung Galaxy Watch Active2 Smartwatch 44mm</name>
+            <price>299.99</price>
+            <image>smart5.jpg</image>
+            <manufacturer>Smart Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>smart5_wc</accessory>
+                <accessory>smart5_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="smart6">
+            <name>Apple Apple Watch Series 3 (GPS) 38mm</name>
+            <price>329.99</price>
+            <image>smart6.jpg</image>
+            <manufacturer>Smart Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>smart6_wc</accessory>
+                <accessory>smart6_sh</accessory>    
+            </accessories>
+        </console>
+    
+        
+        
+        
+        
+        
+        
+        
+         <console id="fitness1">
+            <name>Fitbit Inspire Activity Tracker</name>
+            <price>69.95</price>
+            <image>fitness1.jpg</image>
+            <manufacturer>Fitness Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>fitness1_wc</accessory>
+                <accessory>fitness1_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="fitness2">
+            <name>Garmin vivosmart 4 Activity Tracker + Heart Rate </name>
+            <price>109.99</price>
+            <image>fitness2.jpg</image>
+            <manufacturer>Fitness Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>fitness2_wc</accessory>
+                <accessory>fitness2_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="fitness3">
+            <name>Samsung  Galaxy Fit Activity Tracker + Heart Rate</name>
+            <price>69.95</price>
+            <image>fitness3.jpg</image>
+            <manufacturer>Fitness Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>fitness3_wc</accessory>
+                <accessory>fitness3_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="fitness4">
+            <name>Fitbit Ace 2 Activity Tracker</name>
+            <price>69.95</price>
+            <image>fitness4.jpg</image>
+            <manufacturer>Fitness Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>fitness4_wc</accessory>
+                <accessory>fitness4_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="fitness5">
+            <name>3Plus Lite Activity Tracke</name>
+            <price>69.95</price>
+            <image>fitness5.jpg</image>
+            <manufacturer>Fitness Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>fitness5_wc</accessory>
+                <accessory>fitness5_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="fitness6">
+            <name>Motiv Ring Activity Tracker + Heart Rate</name>
+            <price>139.99</price>
+            <image>fitness6.jpg</image>
+            <manufacturer>Fitness Watch</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>fitness6_wc</accessory>
+                <accessory>fitness6_sh</accessory>    
+            </accessories>
+        </console>
+        
+        
+
+        
+        
+        
+         <console id="wireless1">
+            <name>Unlimited talk, text and data</name>
+            <price>35</price>
+            <image>wireless1.png</image>
+            <manufacturer>Wireless Plan</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>wireless1_wc</accessory>
+                <accessory>wireless1_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="wireless2">
+            <name>Unlimited talk, text and data along with Spotify and Netflix Subscription</name>
+            <price>45</price>
+            <image>wireless2.png</image>
+            <manufacturer>Wireless Plan</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>wireless2_wc</accessory>
+                <accessory>wireless2_sh</accessory>    
+            </accessories>
+        </console>
+         <console id="wireless3">
+            <name>Unlimited talk,text and data along with Spotify,Netflix Subscription and added speed</name>
+            <price>50</price>
+            <image>wireless3.jpg</image>
+            <manufacturer>Wireless Plan</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>wireless3_wc</accessory>
+                <accessory>wireless3_sh</accessory>    
+            </accessories>
+        </console>
+        <console id="wireless4">
+            <name>Unlimited talk, text and data along with Spotify and Netflix Subscription</name>
+            <price>45</price>
+            <image>wireless4.jpg</image>
+            <manufacturer>Wireless Plan</manufacturer>
+            <condition>New</condition>
+            <discount>10.0</discount>
+            <accessories>
+                <accessory>wireless2_wc</accessory>
+                <accessory>wireless2_sh</accessory>    
+            </accessories>
+        </console>
+        
+        
+    </ConsoleCatalog>
+    
+
+    
+    
+    
+    
+    <AccessoryCatalog>
+        <accessory id="macbook_wc">
+            <name>Controller</name>
+            <price>89.99</price>
+            <image>XBOX controller.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="macbook_sh">
+            <name>Turtle Beach Headset</name>
+            <price>89.99</price>
+            <image>Turtle Beach Headset.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="macbook_vb">
+            <name>joystick</name>
+            <price>89.99</price>
+            <image>joystick.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="macbook_kg">
+            <name>Keypad</name>
+            <price>89.99</price>
+            <image>keypad.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="xboxone_rs">
+            <name>Starterkit</name>
+            <price>89.99</price>
+            <image>starterkit.jpeg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="xboxone_mp">
+            <name>Wireless adpter</name>
+            <price>89.99</price>
+            <image>wirelessadapter.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="xboxone_mc">
+            <name>Wireless </name>
+            <price>89.99</price>
+            <image>wirelessadapter.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="macbook_wc">
+            <name>Apple Lightning to 3.5mm Headphone Adapter</name>
+            <price>10.99</price>
+            <image>adapter.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="macbook_rs">
+            <name>Microsoft Wireless Keyboard and Mouse</name>
+            <price>30.99</price>
+            <image>mouse.jpg</image>
+            <manufacturer>Laptop</manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+        <accessory id="macbook_kg">
+            <name>SanDisk Ultra Fit™ 128GB USB 3.1 Flash Drive</name>
+            <price>21.99</price>
+            <image>pendrive.jpg</image>
+            <manufacturer></manufacturer>
+            <condition>New</condition>
+            <discount>40.0</discount>
+        </accessory>
+    </AccessoryCatalog>
+</ProductCatalog>

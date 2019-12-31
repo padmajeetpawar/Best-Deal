@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0052)http://localhost/Tutorial_1/ConsoleList?maker=laptop -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>BestDeal</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="./BestDeal_files/style.css" rel="stylesheet" type="text/css" media="screen">
+<!-- Links for Jquery and bootstrap css -->
+ <link rel="stylesheet" href="./BestDeal_files/bootstrap.min.css">
+  <script src="./BestDeal_files/jquery.min.js"></script>
+  <script src="./BestDeal_files/bootstrap.min.js"></script>
+
+<script>
+<!-- jqurey script -->
+$(document).ready(function(){
+
+	$('#myCarousel').carousel({
+  interval: 3000
+})
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+});
+});
+</script>
+<style>
+* {
+		box-sizing : unset;
+	}
+	
+.col-md-6{
+		width : 45% ! important;
+	}
+    p.oblique {
+  font-style: oblique;
+    }
+</style>	
+
+
+
+</head>
+<body style="margin: 0px !important; padding: 0 !important;	background: #8E8A89 !important;	font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;	font-size: 12px !important;	">
+	<script type="text/javascript" src="./BestDeal_files/autocomplete.js"></script>
+	<!-- Start #logo top content of the webpage-->
+	<div id="logo">
+		<table style="float: left">
+			<tbody><tr>
+				<td style="valign: top;"><img src="./BestDeal_files/BestDealLogo.png" alt="" style="height: 80px"></td>
+				<td><h1> 
+						<a href="http://localhost/Tutorial_1/ConsoleList?maker=laptop#">Best Deal </a>
+					</h1></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><p>
+						<em>World's Largest Online Shopping Center</em>
+					</p></td>
+			</tr>
+		</tbody></table>
+		<div style="float: right; width: 30%; margin-top: 0px; border: 1px solid white; padding: 5px; padding-right: 15px">
+			<em style="color: white;">Search Product:</em>
+			<div name="autofillform">
+				<input type="text" name="complete-field" value="" class="input" id="complete-field" onkeyup="doCompletion()" autocomplete="off" placeholder="search here.." style="padding: 5px; font-size: 16px;">
+				<div id="auto-row">
+					<table id="complete-table" class="gridtable" style="position: absolute; width: 315px;"></table>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<hr>
+	<!-- end #logo -->
+	<!-- start #header -->
+	<!-- menu in header area the header div ends in utility file where header content right side link gets populated with login id cart and logout option -->
+	<div id="header">
+		<div id="menu">
+			<ul>
+				
+				<li><a href="http://localhost/Tutorial_1/Home" class="first"><span class="glyphicon glyphicon-home">Home</span></a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList"><span class="glyphicon">Products</span></a></li>
+				<!--<li><a href="GamesList"><span class="glyphicon">Games</span></a></li>-->
+				<li><a href="http://localhost/Tutorial_1/Deals"><span class="glyphicon">Deals</span></a></li>
+				<!--<li><a href="TabletList"><span class="glyphicon">Tablets</span></a></li>-->
+				<li><a href="http://localhost/Tutorial_1/Trending"><span class="glyphicon">Trending </span></a></li>
+			</ul>
+		</div>	
+		<!-- end #menu -->
+		
+				<div id="menu" style="float: right;"><ul><li><a href="http://localhost/Tutorial_1/ViewOrder"><span class="glyphicon">ViewOrder</span></a></li><li><a><span class="glyphicon">Hello,Jeet</span></a></li><li><a href="http://localhost/Tutorial_1/Account"><span class="glyphicon">Account</span></a></li><li><a href="http://localhost/Tutorial_1/Logout"><span class="glyphicon">Logout</span></a></li><li><a href="http://localhost/Tutorial_1/Cart"><span class="glyphicon">Cart(1)</span></a></li></ul></div></div><div id="page"><!-- the left navigation bar content-->
+<div id="sidebar">
+	<ul>
+		<li>
+			<h2>Products</h2>
+			<ul>
+				<li id="first"><a href="http://localhost/Tutorial_1/ConsoleList?maker=laptop">Laptops</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=tv">TV</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=cellphone">Cell Phones</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=headphone">Headphones</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=hometheater">Home Theater</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=voiceassistant">Voice Assistant</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=smartwatches">Smart Watches</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=fitnesswatches">Fitness Watches</a></li>
+				<li><a href="http://localhost/Tutorial_1/ConsoleList?maker=wirelessplan">Wireless Plans</a></li>
+			</ul>
+		</li>
+		<!--<li>
+	
+			<h2>Accessories</h2>
+			<ul>
+				<li id="first"><a href="AccessoryList?maker=laptop&console=xbox360">Microsoft Accessories</a></li>
+				<li><a href="AccessoryList?maker=sony&console=PS4">Sony Accessories</a></li>
+				<li><a href="AccessoryList?maker=nintendo&console=WII">Nintendo Accessories</a></li>
+			</ul>
+		</li>-->
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- the left navigation bar content
+<div id="sidebar">
+	<ul>
+		<li>
+			<h2>Consoles</h2>
+			<ul>
+				<li id="first"><a href="ConsoleList?maker=microsoft&console=Xbox One">Microsoft</a></li>
+				<li><a href="ConsoleList?maker=sony&console=ps4">Sony</a></li>
+				<li><a href="ConsoleList?maker=nintendo&console=nintendo">Nintendo</a></li>
+			</ul>
+		</li>
+		<li>
+			<h2>Games</h2>
+			<ul>
+				<li id="first"><a href="GamesList?maker=electronicArts">Electronic
+						Arts</a></li>
+				<li><a href="GamesList?maker=activision">Activision</a></li>
+				<li><a href="GamesList?maker=takeTwoInteractive">Take-Two
+						Interactive</a></li>
+			</ul>
+		</li>
+		<li>
+			<h2>Tablets</h2>
+			<ul>
+				<li id="first"><a href="TabletList?maker=apple">Apple</a></li>
+				<li><a href="TabletList?maker=microsoft">Microsoft</a></li>
+				<li><a href="TabletList?maker=samsung">Samsung</a></li>
+			</ul>
+		</li>
+		<li>
+			<h2>Accessories</h2>
+			<ul>
+				<li id="first"><a href="AccessoryList?maker=microsoft&console=xbox360">Microsoft Accessories</a></li>
+				<li><a href="AccessoryList?maker=sony&console=PS4">Sony Accessories</a></li>
+				<li><a href="AccessoryList?maker=nintendo&console=WII">Nintendo Accessories</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>--><div id="content"><div class="post"><h2 class="title meta"><a style="font-size: 24px;"> Showing Results for Laptop</a></h2><div class="entry"><table id="bestseller"><tbody><tr><td><div id="shop_item"><h3>Microsoft Surface Laptop 2 (13")</h3><strong>$999.99</strong><ul><li id="item"><img src="./BestDeal_files/surface.jpg" alt=""></li><li><form method="post" action="http://localhost/Tutorial_1/Cart"><input type="hidden" name="name" value="surface"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" class="btnbuy" value="Buy Now"></form></li><li><form method="post" action="http://localhost/Tutorial_1/WriteReview"><input type="hidden" name="name" value="surface"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="WriteReview" class="btnreview"></form></li><li><form method="post" action="http://localhost/Tutorial_1/ViewReview"><input type="hidden" name="name" value="surface"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="ViewReview" class="btnreview"></form></li></ul></div></td><td><div id="shop_item"><h3>Apple Macbook Pro (13")</h3><strong>$1199.0</strong><ul><li id="item"><img src="./BestDeal_files/mac.jpg" alt=""></li><li><form method="post" action="http://localhost/Tutorial_1/Cart"><input type="hidden" name="name" value="macbook"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" class="btnbuy" value="Buy Now"></form></li><li><form method="post" action="http://localhost/Tutorial_1/WriteReview"><input type="hidden" name="name" value="macbook"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="WriteReview" class="btnreview"></form></li><li><form method="post" action="http://localhost/Tutorial_1/ViewReview"><input type="hidden" name="name" value="macbook"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="ViewReview" class="btnreview"></form></li></ul></div></td><td><div id="shop_item"><h3>Lenvo Yoga C930 (14")</h3><strong>$1419.49</strong><ul><li id="item"><img src="./BestDeal_files/lenovo.jpg" alt=""></li><li><form method="post" action="http://localhost/Tutorial_1/Cart"><input type="hidden" name="name" value="yoga"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" class="btnbuy" value="Buy Now"></form></li><li><form method="post" action="http://localhost/Tutorial_1/WriteReview"><input type="hidden" name="name" value="yoga"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="WriteReview" class="btnreview"></form></li><li><form method="post" action="http://localhost/Tutorial_1/ViewReview"><input type="hidden" name="name" value="yoga"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="ViewReview" class="btnreview"></form></li></ul></div></td></tr><tr><td><div id="shop_item"><h3>ASUS - FX705DT 17.3" Gaming Laptop</h3><strong>$749.0</strong><ul><li id="item"><img src="./BestDeal_files/asus.jpg" alt=""></li><li><form method="post" action="http://localhost/Tutorial_1/Cart"><input type="hidden" name="name" value="asus"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" class="btnbuy" value="Buy Now"></form></li><li><form method="post" action="http://localhost/Tutorial_1/WriteReview"><input type="hidden" name="name" value="asus"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="WriteReview" class="btnreview"></form></li><li><form method="post" action="http://localhost/Tutorial_1/ViewReview"><input type="hidden" name="name" value="asus"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="ViewReview" class="btnreview"></form></li></ul></div></td><td><div id="shop_item"><h3>HP spectre x360</h3><strong>$1010.0</strong><ul><li id="item"><img src="./BestDeal_files/specter.jpg" alt=""></li><li><form method="post" action="http://localhost/Tutorial_1/Cart"><input type="hidden" name="name" value="specter"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" class="btnbuy" value="Buy Now"></form></li><li><form method="post" action="http://localhost/Tutorial_1/WriteReview"><input type="hidden" name="name" value="specter"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="WriteReview" class="btnreview"></form></li><li><form method="post" action="http://localhost/Tutorial_1/ViewReview"><input type="hidden" name="name" value="specter"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="ViewReview" class="btnreview"></form></li></ul></div></td><td><div id="shop_item"><h3>Dell - Inspiron 2-in-1</h3><strong>$1199.0</strong><ul><li id="item"><img src="./BestDeal_files/dell.jpg" alt=""></li><li><form method="post" action="http://localhost/Tutorial_1/Cart"><input type="hidden" name="name" value="dell"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" class="btnbuy" value="Buy Now"></form></li><li><form method="post" action="http://localhost/Tutorial_1/WriteReview"><input type="hidden" name="name" value="dell"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="WriteReview" class="btnreview"></form></li><li><form method="post" action="http://localhost/Tutorial_1/ViewReview"><input type="hidden" name="name" value="dell"><input type="hidden" name="type" value="consoles"><input type="hidden" name="maker" value="laptop"><input type="hidden" name="access" value=""><input type="submit" value="ViewReview" class="btnreview"></form></li></ul></div></td></tr></tbody></table></div></div></div><div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+	<p> Prices and offers are subject to change. ? 2016 GameSpeed. All rights reserved.</p>
+</div>
+<!-- end #footer -->
+
+
+</body></html>
