@@ -51,8 +51,6 @@
                 <accessory>surface_sh</accessory>
                 <accessory>surface_vb</accessory>
                 <accessory>surface_kg</accessory>
-                <!--<accessory>xbox360_mp</accessory>
-                <accessory>xbox360_kg</accessory>-->
             </accessories>
         </console>
         <console id="Lenovo">
@@ -68,8 +66,6 @@
                 <accessory>yoga_sh</accessory>
                 <accessory>yoga_vb</accessory>
                 <accessory>yoga_kg</accessory>
-                <!--<accessory>xbox360_mp</accessory>
-                <accessory>xbox360_kg</accessory>-->
             </accessories>
         </console>
         <console id="laptop5">
