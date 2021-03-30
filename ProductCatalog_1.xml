@@ -96,9 +96,7 @@
                 <accessory>asus_sh</accessory>
                 <accessory>asus_vb</accessory>
                 <accessory>asus_kg</accessory>
-                <!--<accessory>xbox360_mp</accessory>
-                <accessory>xbox360_kg</accessory>-->
-            </accessories>
+              
         </console>
         <console id="laptop6">
             <name>Dell - Inspiron 2-in-1</name>
